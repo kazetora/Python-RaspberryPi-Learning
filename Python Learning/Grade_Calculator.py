@@ -12,5 +12,5 @@ def grade_calculator (num):
     elif (num >=0):
         return 1
 
-print grade_calculator( input ("Lutfen Ders Notunuzu Giriniz!"))
+print("Your grade is " + str(grade_calculator( int(input ("Enter your score! ")))))
 
